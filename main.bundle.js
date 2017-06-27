@@ -30413,6 +30413,11 @@
 	          _react2.default.createElement(
 	            'p',
 	            { className: 'overlay-text' },
+	            'world traveler'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'overlay-text' },
 	            'ipa enthusiast'
 	          ),
 	          _react2.default.createElement('img', { className: 'profile-pic', src: './images/me.png' })
@@ -30472,27 +30477,79 @@
 	        _react2.default.createElement(
 	          'aside',
 	          { className: 'about-container' },
-	          _react2.default.createElement('div', { className: 'about' }),
-	          _react2.default.createElement('div', { className: 'about' }),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'about' },
-	            _react2.default.createElement('img', { className: 'school-logo', src: './images/turing.png' }),
 	            _react2.default.createElement(
 	              'p',
-	              { className: 'school-text' },
-	              'Turing School of Software & Design'
+	              { className: 'currently-looking' },
+	              'Having just finished my program at Turing, I\'m looking to work for a company located in either Boulder or Denver. Feel free to reach out if you\'d like to chat!'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'location' },
+	              'Where am I now?'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'location' },
+	              'I happily live in Golden, Colorado'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'about' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'top-quote' },
+	              '\u275D'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'quote' },
+	              ' Collecting facts is important. Knowledge is important. But if you don\'t have an imagination to use the knowledge, civilization is nowhere. - Ray Bradbury'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'bottom-quote' },
+	              '\u275E'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'about' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://www.turing.io/', target: 'blank' },
+	              _react2.default.createElement('img', { className: 'school-logo', src: './images/turing.png' })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://www.turing.io/', target: 'blank' },
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'school-text' },
+	                'Turing School of Software & Design'
+	              )
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'school-text-maj' },
 	              'Front End Engineering'
 	            ),
-	            _react2.default.createElement('img', { className: 'school-logo', src: './images/champlain.png' }),
 	            _react2.default.createElement(
-	              'p',
-	              { className: 'school-text' },
-	              'Champlain College'
+	              'a',
+	              { href: 'http://www.champlain.edu/', target: 'blank' },
+	              _react2.default.createElement('img', { className: 'school-logo', src: './images/champlain.png' })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'http://www.champlain.edu/', target: 'blank' },
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'school-text' },
+	                'Champlain College'
+	              )
 	            ),
 	            _react2.default.createElement(
 	              'p',
@@ -30974,7 +31031,7 @@
 
 
 	// module
-	exports.push([module.id, ".header-container {\n  position: fixed;\n  width: 100vw;\n  height: 15vh;\n  top: 0;\n  border-bottom: 2px solid #171b1e;\n  display: flex;\n  justify-content: space-between;\n  background-color: #171b1e;\n  color: white;\n  z-index: 1000; }\n\n.title {\n  font-size: 58px;\n  padding: 20px 0;\n  margin-left: 2%;\n  font-family: 'Caveat', cursive; }\n\n.button-container {\n  margin-right: 2%; }\n\n.contact-me {\n  display: inline-block;\n  padding: 40px 0;\n  font-size: 24px;\n  font-family: 'Josefin Sans', sans-serif;\n  cursor: pointer; }\n\n.sectionOne {\n  position: relative;\n  width: 100vw;\n  margin-top: 15vh;\n  height: 75vh; }\n\n.cover-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-bottom: 2px solid #171b1e; }\n\n.beach-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-top: 2px solid #171b1e; }\n\n.overlay-text-container {\n  position: absolute;\n  top: 12%;\n  left: 35%;\n  font-size: 36px;\n  z-index: 2;\n  text-align: center; }\n\n.overlay-text {\n  margin: 9px; }\n\n.profile-pic {\n  margin-top: 7%;\n  width: 200px;\n  height: 200px;\n  background-color: #171b1e;\n  border-radius: 100px;\n  filter: grayscale(100%);\n  border: 1px solid #171b1e; }\n\n.sectionTwo {\n  position: relative;\n  width: 100vw;\n  height: 75vh;\n  padding-top: 5px; }\n\n.about-container {\n  position: absolute;\n  width: 100%;\n  display: flex;\n  padding-top: 2px; }\n\n.about {\n  width: 34%;\n  height: 75vh;\n  background-color: #ede1d1;\n  border-left: 1px solid #937d62;\n  text-align: center; }\n\n.school-logo {\n  width: 30%;\n  margin: 30px; }\n\n.school-text {\n  font-size: 24px; }\n\n.school-text-maj {\n  font-size: 22px;\n  font-style: italic; }\n\n.footer {\n  width: 100vw;\n  padding-top: 5px; }\n\n.social-container {\n  float: right;\n  margin-top: 1%;\n  margin-right: 2%; }\n\n.social {\n  display: inline-block;\n  width: 50px;\n  margin: 30px 20px 50px 20px; }\n\n.hired {\n  display: inline-block;\n  font-size: 36px;\n  color: #171b1e;\n  font-family: 'Caveat', cursive;\n  margin-top: 4%;\n  margin-left: 2%; }\n", ""]);
+	exports.push([module.id, ".header-container {\n  position: fixed;\n  width: 100vw;\n  height: 15vh;\n  top: 0;\n  border-bottom: 2px solid #171b1e;\n  display: flex;\n  justify-content: space-between;\n  background-color: #171b1e;\n  color: white;\n  z-index: 1000; }\n\n.title {\n  font-size: 58px;\n  padding: 20px 0;\n  margin-left: 2%;\n  font-family: 'Caveat', cursive; }\n\n.button-container {\n  margin-right: 2%; }\n\n.contact-me {\n  display: inline-block;\n  padding: 40px 0;\n  font-size: 24px;\n  font-family: 'Josefin Sans', sans-serif;\n  cursor: pointer; }\n\n.sectionOne {\n  position: relative;\n  width: 100vw;\n  margin-top: 15vh;\n  height: 75vh; }\n\n.cover-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-bottom: 2px solid #171b1e; }\n\n.beach-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-top: 2px solid #171b1e; }\n\n.overlay-text-container {\n  position: absolute;\n  top: 9%;\n  left: 35%;\n  font-size: 36px;\n  z-index: 2;\n  text-align: center; }\n\n.overlay-text {\n  margin: 9px; }\n\n.profile-pic {\n  margin-top: 7%;\n  width: 200px;\n  height: 200px;\n  background-color: #171b1e;\n  border-radius: 100px;\n  filter: grayscale(100%);\n  border: 1px solid #171b1e; }\n\n.sectionTwo {\n  position: relative;\n  width: 100vw;\n  height: 75vh;\n  padding-top: 5px; }\n\n.about-container {\n  position: absolute;\n  width: 100%;\n  display: flex;\n  padding-top: 2px; }\n\n.about {\n  width: 34%;\n  height: 75vh;\n  border-left: 1px solid #937d62;\n  text-align: center;\n  z-index: 3;\n  opacity: 0.6; }\n\n.currently-looking {\n  font-size: 30px;\n  line-height: 125%;\n  padding: 0 35px;\n  margin: 30px 0 120px; }\n\n.location {\n  font-size: 26px;\n  font-style: italic;\n  margin: 10px; }\n\na {\n  text-decoration: none; }\n\na:visited {\n  color: black; }\n\n.quote {\n  font-size: 36px;\n  font-style: italic;\n  line-height: 120%;\n  padding: 35px;\n  margin-top: 40px; }\n\n.top-quote {\n  position: absolute;\n  font-size: 200px;\n  transform: rotate(-25deg);\n  margin: 20px;\n  color: grey;\n  z-index: -1; }\n\n.bottom-quote {\n  position: absolute;\n  font-size: 200px;\n  transform: rotate(25deg);\n  margin-top: -90px;\n  margin-left: 245px;\n  color: grey;\n  z-index: -1; }\n\n.school-logo {\n  width: 30%;\n  margin: 30px; }\n\n.school-text {\n  font-size: 24px; }\n\n.school-text-maj {\n  font-size: 22px;\n  font-style: italic; }\n\n.footer {\n  width: 100vw;\n  padding-top: 5px; }\n\n.social-container {\n  float: right;\n  margin-top: 1%;\n  margin-right: 2%; }\n\n.social {\n  display: inline-block;\n  width: 50px;\n  margin: 30px 20px 50px 20px; }\n\n.hired {\n  display: inline-block;\n  font-size: 36px;\n  color: #171b1e;\n  font-family: 'Caveat', cursive;\n  margin-top: 4%;\n  margin-left: 2%; }\n", ""]);
 
 	// exports
 
