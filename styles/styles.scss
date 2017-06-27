@@ -1,6 +1,6 @@
 .header-container {
   position: fixed;
-  width: 99vw;
+  width: 100vw;
   height: 15vh;
   top: 0;
   border-bottom: 2px solid #171b1e;
@@ -8,67 +8,112 @@
   justify-content: space-between;
   background-color: #171b1e;
   color: white;
+  z-index: 1000;
 }
 
 .title {
-  font-size: 36px;
-  padding: 25px 0;
-  margin-left: 10px;
+  font-size: 58px;
+  padding: 20px 0;
+  margin-left: 2%;
+  font-family: 'Caveat', cursive;
 }
 
 .button-container {
-  width: 30vw;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
-.buttonOne {
+.contact-me {
   display: inline-block;
-  padding: 30px 0;
-}
-
-.buttonTwo {
-  display: inline-block;
-  padding: 30px 0;
-}
-
-.buttonThree {
-  display: inline-block;
-  padding: 30px 0;
+  padding: 40px 0;
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
 }
 
 .sectionOne {
-  width: 99vw;
+  position: relative;
+  width: 100vw;
   margin-top: 15vh;
-  padding-top: 5px;
   height: 75vh;
+}
+
+.cover-image {
+  width: 100vw;
+  height: 75vh;
+  filter: opacity(.3);
   border-bottom: 2px solid #171b1e;
+}
+
+.beach-image {
+  width: 100vw;
+  height: 75vh;
+  filter: opacity(.3);
+  border-top: 2px solid #171b1e;
+}
+
+.overlay-text-container {
+  position: absolute;
+  top: 15%;
+  left: 36%;
+  font-size: 36px;
+  z-index: 2;
+  text-align: center;
+}
+
+.overlay-text {
+  margin: 7px;
+}
+
+.profile-pic {
+  margin-left: 25%;
+  margin-top: 7%;
+  width: 200px;
+  height: 200px;
+  background-color: #171b1e;
+  border-radius: 100px;
 }
 
 .sectionTwo {
-  width: 99vw;
+  position: relative;
+  width: 100vw;
   height: 75vh;
   padding-top: 5px;
-  border-bottom: 2px solid #171b1e;
+}
+
+.about-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding-top: 2px;
+}
+
+.about {
+  width: 34%;
+  height: 75vh;
+  background-color: #e8d9c5;
+  border-left: 1px solid #937d62;
+}
+
+.about:hover {
+  background-color: magenta;
 }
 
 .footer {
-  width: 99vw;
+  width: 100vw;
   height: 15vh;
   padding-top: 5px;
 }
 
 .social-container {
   float: right;
-  margin-right: 10px;
-  padding-top: 10px;
+  margin-top: 1%;
+  margin-right: 2%;
 }
 
 .social {
   display: inline-block;
-  margin: 15px;
   width: 50px;
+  margin: 20px;
 }
 
 .hired {
@@ -76,4 +121,6 @@
   font-size: 36px;
   color: #171b1e;
   font-family: 'Caveat', cursive;
+  margin-top: 3%;
+  margin-left: 2%;
 }
