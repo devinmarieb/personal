@@ -40,21 +40,21 @@
 .cover-image {
   width: 100vw;
   height: 75vh;
-  filter: opacity(.3);
+  filter: opacity(.4);
   border-bottom: 2px solid #171b1e;
 }
 
 .beach-image {
   width: 100vw;
   height: 75vh;
-  filter: opacity(.3);
+  filter: opacity(.4);
   border-top: 2px solid #171b1e;
 }
 
 .overlay-text-container {
   position: absolute;
   top: 12%;
-  left: 36%;
+  left: 35%;
   font-size: 36px;
   z-index: 2;
   text-align: center;
@@ -65,12 +65,13 @@
 }
 
 .profile-pic {
-  margin-left: 25%;
   margin-top: 7%;
   width: 200px;
   height: 200px;
   background-color: #171b1e;
   border-radius: 100px;
+  filter: grayscale(100%);
+  border: 1px solid #171b1e;
 }
 
 .sectionTwo {
@@ -90,7 +91,7 @@
 .about {
   width: 34%;
   height: 75vh;
-  background-color: #e8d9c5;
+  background-color: #ede1d1;
   border-left: 1px solid #937d62;
   text-align: center;
 }
@@ -112,7 +113,6 @@
 
 .footer {
   width: 100vw;
-  height: 15vh;
   padding-top: 5px;
 }
 
@@ -125,7 +125,7 @@
 .social {
   display: inline-block;
   width: 50px;
-  margin: 20px;
+  margin: 30px 20px 50px 20px;
 }
 
 .hired {
@@ -133,6 +133,6 @@
   font-size: 36px;
   color: #171b1e;
   font-family: 'Caveat', cursive;
-  margin-top: 3%;
+  margin-top: 4%;
   margin-left: 2%;
 }

@@ -30415,9 +30415,9 @@
 	            { className: 'overlay-text' },
 	            'ipa enthusiast'
 	          ),
-	          _react2.default.createElement('div', { className: 'profile-pic' })
+	          _react2.default.createElement('img', { className: 'profile-pic', src: './images/me.png' })
 	        ),
-	        _react2.default.createElement('img', { className: 'cover-image', src: './images/largeimage.jpg' })
+	        _react2.default.createElement('img', { className: 'cover-image', src: './images/beachimage.jpg' })
 	      );
 	    }
 	  }]);
@@ -30501,7 +30501,7 @@
 	            )
 	          )
 	        ),
-	        _react2.default.createElement('img', { className: 'beach-image', src: './images/beachimage.jpg' })
+	        _react2.default.createElement('img', { className: 'beach-image', src: './images/largeimage.jpg' })
 	      );
 	    }
 	  }]);
@@ -30974,7 +30974,7 @@
 
 
 	// module
-	exports.push([module.id, ".header-container {\n  position: fixed;\n  width: 100vw;\n  height: 15vh;\n  top: 0;\n  border-bottom: 2px solid #171b1e;\n  display: flex;\n  justify-content: space-between;\n  background-color: #171b1e;\n  color: white;\n  z-index: 1000; }\n\n.title {\n  font-size: 58px;\n  padding: 20px 0;\n  margin-left: 2%;\n  font-family: 'Caveat', cursive; }\n\n.button-container {\n  margin-right: 2%; }\n\n.contact-me {\n  display: inline-block;\n  padding: 40px 0;\n  font-size: 24px;\n  font-family: 'Josefin Sans', sans-serif;\n  cursor: pointer; }\n\n.sectionOne {\n  position: relative;\n  width: 100vw;\n  margin-top: 15vh;\n  height: 75vh; }\n\n.cover-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.3);\n  border-bottom: 2px solid #171b1e; }\n\n.beach-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.3);\n  border-top: 2px solid #171b1e; }\n\n.overlay-text-container {\n  position: absolute;\n  top: 12%;\n  left: 36%;\n  font-size: 36px;\n  z-index: 2;\n  text-align: center; }\n\n.overlay-text {\n  margin: 9px; }\n\n.profile-pic {\n  margin-left: 25%;\n  margin-top: 7%;\n  width: 200px;\n  height: 200px;\n  background-color: #171b1e;\n  border-radius: 100px; }\n\n.sectionTwo {\n  position: relative;\n  width: 100vw;\n  height: 75vh;\n  padding-top: 5px; }\n\n.about-container {\n  position: absolute;\n  width: 100%;\n  display: flex;\n  padding-top: 2px; }\n\n.about {\n  width: 34%;\n  height: 75vh;\n  background-color: #e8d9c5;\n  border-left: 1px solid #937d62;\n  text-align: center; }\n\n.school-logo {\n  width: 30%;\n  margin: 30px; }\n\n.school-text {\n  font-size: 24px; }\n\n.school-text-maj {\n  font-size: 22px;\n  font-style: italic; }\n\n.footer {\n  width: 100vw;\n  height: 15vh;\n  padding-top: 5px; }\n\n.social-container {\n  float: right;\n  margin-top: 1%;\n  margin-right: 2%; }\n\n.social {\n  display: inline-block;\n  width: 50px;\n  margin: 20px; }\n\n.hired {\n  display: inline-block;\n  font-size: 36px;\n  color: #171b1e;\n  font-family: 'Caveat', cursive;\n  margin-top: 3%;\n  margin-left: 2%; }\n", ""]);
+	exports.push([module.id, ".header-container {\n  position: fixed;\n  width: 100vw;\n  height: 15vh;\n  top: 0;\n  border-bottom: 2px solid #171b1e;\n  display: flex;\n  justify-content: space-between;\n  background-color: #171b1e;\n  color: white;\n  z-index: 1000; }\n\n.title {\n  font-size: 58px;\n  padding: 20px 0;\n  margin-left: 2%;\n  font-family: 'Caveat', cursive; }\n\n.button-container {\n  margin-right: 2%; }\n\n.contact-me {\n  display: inline-block;\n  padding: 40px 0;\n  font-size: 24px;\n  font-family: 'Josefin Sans', sans-serif;\n  cursor: pointer; }\n\n.sectionOne {\n  position: relative;\n  width: 100vw;\n  margin-top: 15vh;\n  height: 75vh; }\n\n.cover-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-bottom: 2px solid #171b1e; }\n\n.beach-image {\n  width: 100vw;\n  height: 75vh;\n  filter: opacity(0.4);\n  border-top: 2px solid #171b1e; }\n\n.overlay-text-container {\n  position: absolute;\n  top: 12%;\n  left: 35%;\n  font-size: 36px;\n  z-index: 2;\n  text-align: center; }\n\n.overlay-text {\n  margin: 9px; }\n\n.profile-pic {\n  margin-top: 7%;\n  width: 200px;\n  height: 200px;\n  background-color: #171b1e;\n  border-radius: 100px;\n  filter: grayscale(100%);\n  border: 1px solid #171b1e; }\n\n.sectionTwo {\n  position: relative;\n  width: 100vw;\n  height: 75vh;\n  padding-top: 5px; }\n\n.about-container {\n  position: absolute;\n  width: 100%;\n  display: flex;\n  padding-top: 2px; }\n\n.about {\n  width: 34%;\n  height: 75vh;\n  background-color: #ede1d1;\n  border-left: 1px solid #937d62;\n  text-align: center; }\n\n.school-logo {\n  width: 30%;\n  margin: 30px; }\n\n.school-text {\n  font-size: 24px; }\n\n.school-text-maj {\n  font-size: 22px;\n  font-style: italic; }\n\n.footer {\n  width: 100vw;\n  padding-top: 5px; }\n\n.social-container {\n  float: right;\n  margin-top: 1%;\n  margin-right: 2%; }\n\n.social {\n  display: inline-block;\n  width: 50px;\n  margin: 30px 20px 50px 20px; }\n\n.hired {\n  display: inline-block;\n  font-size: 36px;\n  color: #171b1e;\n  font-family: 'Caveat', cursive;\n  margin-top: 4%;\n  margin-left: 2%; }\n", ""]);
 
 	// exports
 
