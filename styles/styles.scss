@@ -101,12 +101,20 @@
   font-size: 30px;
   line-height: 125%;
   padding: 0 35px;
-  margin: 30px 0 120px;
+  margin: 30px 0 30px;
+}
+
+.portfolio {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 70px;
+  &:hover {
+    color: #683A5E;
+  }
 }
 
 .location {
   font-size: 26px;
-  font-style: italic;
   margin: 10px;
 }
 
@@ -152,6 +160,9 @@ a:visited {
 
 .school-text {
   font-size: 24px;
+  &:hover {
+    color: #683A5E;
+  }
 }
 
 .school-text-maj {
