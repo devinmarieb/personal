@@ -93,6 +93,16 @@
   height: 75vh;
   border-left: 1px solid #937d62;
   text-align: center;
+  z-index: 3;
+  opacity: (.6);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 .quote {
