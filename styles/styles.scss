@@ -53,7 +53,7 @@
 
 .overlay-text-container {
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 36%;
   font-size: 36px;
   z-index: 2;
@@ -61,7 +61,7 @@
 }
 
 .overlay-text {
-  margin: 7px;
+  margin: 9px;
 }
 
 .profile-pic {
@@ -92,11 +92,23 @@
   height: 75vh;
   background-color: #e8d9c5;
   border-left: 1px solid #937d62;
+  text-align: center;
 }
 
-.about:hover {
-  background-color: magenta;
+.school-logo {
+  width: 30%;
+  margin: 30px;
 }
+
+.school-text {
+  font-size: 24px;
+}
+
+.school-text-maj {
+  font-size: 22px;
+  font-style: italic;
+}
+
 
 .footer {
   width: 100vw;
