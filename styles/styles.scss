@@ -54,7 +54,7 @@
 .overlay-text-container {
   position: absolute;
   top: 9%;
-  left: 35%;
+  left: 37%;
   font-size: 30px;
   z-index: 2;
   text-align: center;
@@ -196,19 +196,19 @@ a:visited {
   margin-left: 2%;
 }
 
+
 @media screen and (max-width: 1065px) {
   .bottom-quote {
     margin-top: -110px;
-    margin-left: 190px;
+    margin-left: 120px;
   }
-}
 
-@media screen and (max-width: 1000px) {
   .about, .section-two, .beach-image {
     height: 110vh;
   }
 
   .top-quote {
+    display: block;
     margin-top: 10px;
   }
 
@@ -222,6 +222,61 @@ a:visited {
 
   .overlay-text-container {
     margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .overlay-text-container {
+    margin-left: -90px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about {
+    width: 100%;
+    height: inherit;
+  }
+
+  .currently-looking, {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .location {
+    font-size: 20px;
+    margin: 7px;
+  }
+
+  .top-quote {
+    font-size: 100px;
+  }
+
+  .bottom-quote {
+    font-size: 100px;
+    margin-top: -70px;
+    margin-left: 68%;
+  }
+
+  .quote {
+    font-size: 20px;
+  }
+
+  .school-text, .school-text-maj {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .school-logo {
+    width: 70px;
+    margin: 5px;
+  }
+
+  .portfolio {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
   }
 
 }
