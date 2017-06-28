@@ -196,14 +196,13 @@ a:visited {
   margin-left: 2%;
 }
 
+
 @media screen and (max-width: 1065px) {
   .bottom-quote {
     margin-top: -110px;
-    margin-left: 190px;
+    margin-left: 120px;
   }
-}
 
-@media screen and (max-width: 1000px) {
   .about, .section-two, .beach-image {
     height: 110vh;
   }
@@ -224,4 +223,36 @@ a:visited {
   .overlay-text-container {
     margin-left: -50px;
   }
+}
+
+@media screen and (max-width: 670px) {
+
+  .currently-looking {
+    font-size: 20px;
+  }
+
+  .top-quote {
+    font-size: 100px;
+  }
+
+  .bottom-quote {
+    font-size: 100px;
+    margin-top: -70px;
+  }
+
+  .quote {
+    font-size: 20px;
+  }
+
+  .school-text, .school-text-maj {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .portfolio, .location {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
 }
