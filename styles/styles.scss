@@ -119,6 +119,9 @@
 
 a {
   text-decoration: none;
+  // &:visited {
+  //   color: black;
+  // }
 }
 
 a:visited {
@@ -227,7 +230,7 @@ a:visited {
 
 @media screen and (max-width: 670px) {
   .overlay-text-container {
-    margin-left: -40px;
+    margin-left: -85px;
   }
 
   .overlay-text {
@@ -294,7 +297,8 @@ a:visited {
   }
 
   .social {
-    width: 30px;
+    width: 40px;
+    margin: 10px;
   }
 
   .social-container {
